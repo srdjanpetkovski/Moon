@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Work+Sans:wght@100;200;300;400;500&display=swap");
+/********************************
+variables
+********************************/
+/********************************
+mixins
+********************************/
+/********************************
+animation
+********************************/
+/********************************
+basic
+********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+/********************************
+Typography
+********************************/
+body {
+  background-image: linear-gradient(to right, rgba(253, 126, 20, 0.6), rgba(220, 53, 69, 0.7)), url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #212529;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  max-width: 1140px;
+  width: 100%;
+  margin: 60px auto;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*****************************
+header
+******************************/
+
+/*# sourceMappingURL=style.css.map */
